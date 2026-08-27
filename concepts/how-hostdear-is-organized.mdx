@@ -1,0 +1,90 @@
+---
+title: "How HostDear is organized"
+description: "Understand how organizations, properties, units, instances, spaces, and add-ons fit together."
+---
+
+HostDear mirrors how an accommodation business sells real places to stay. You only need the concepts that apply to your business.
+
+## The basic structure
+
+```text
+Organization
+└── Property
+    ├── Property spaces
+    └── Bookable accommodations (units)
+        ├── Available accommodation (unit instance)
+        └── Accommodation spaces
+```
+
+## Organization
+
+An organization is the business or team managing the accommodation.
+
+It contains your properties and controls who can work with them. A sole owner with one property still has an organization, even when there are no other team members.
+
+## Property
+
+A property is a destination presented to guests as one place.
+
+It contains the accommodations guests can book and information shared across that destination. A villa and studio at the same location can belong to one property when they share the same identity and facilities.
+
+## Bookable accommodation
+
+A bookable accommodation is something a guest can choose to reserve. HostDear calls it a **unit**.
+
+Examples include:
+
+- An entire villa
+- A studio
+- A double room type
+- A campsite pitch type
+
+Create separate accommodations when they need their own availability, capacity, content, or price.
+
+## Available accommodation
+
+An available accommodation is the real room, villa, apartment, bed, or pitch that fulfils a booking. HostDear calls it a **unit instance**.
+
+Examples:
+
+- One Main Villa has one instance.
+- One Studio has one instance.
+- Ten interchangeable Double Rooms have ten instances.
+
+Instances let you take one physical accommodation out of service without changing the description or price of the accommodation type.
+
+## Spaces
+
+A space describes an area a guest receives or can use.
+
+The location of a space communicates who it belongs to:
+
+- A **property space** is shared across the destination, such as a communal pool, garden, or parking area.
+- An **accommodation space** belongs to one bookable accommodation, such as its bedroom, kitchen, or private terrace.
+
+<Tip>
+  Ask: “Does every guest at this property receive this space?” If yes, add it to the property. If only one accommodation receives it, add it there.
+</Tip>
+
+## Add-ons
+
+An accommodation add-on lets a guest combine another bookable accommodation with their main choice.
+
+For example, the Studio can be offered to someone booking the Main Villa. The add-on links the existing accommodations; it does not create another Studio.
+
+You do not need add-ons when guests always book each accommodation independently.
+
+## Common setups
+
+| Business | Properties | Bookable accommodations | Instances |
+| --- | ---: | ---: | ---: |
+| One villa booked as a whole | 1 | 1 | 1 |
+| Villa and studio booked separately | 1 | 2 | 1 for each |
+| Ten interchangeable double rooms | 1 | 1 room type | 10 |
+| Three holiday homes at different destinations | 3 | At least 1 per property | Usually 1 per accommodation |
+
+## Continue with a setup guide
+
+- [Choose your setup](/getting-started/choose-your-setup)
+- [Set up your first property](/getting-started/first-property)
+- [Set up a villa and studio](/use-cases/villa-and-studio)
