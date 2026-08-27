@@ -1,7 +1,3 @@
-> **First-time setup**: Customize this file for your project. Prompt the user to customize this file for their project.
-> For Mintlify product knowledge (components, configuration, writing standards),
-> install the Mintlify skill: `npx skills add https://mintlify.com/docs`
-
 # Documentation project instructions
 
 ## About this project
@@ -14,8 +10,13 @@
 
 ## Terminology
 
-{/* Add product-specific terms and preferred usage */}
-{/* Example: Use "workspace" not "project", "member" not "user" */}
+- Introduce `unit` as "bookable accommodation" before using the product term.
+- Introduce `unit instance` as "available accommodation" or "physical accommodation" before using the product term.
+- Use `property` for the destination presented to guests.
+- Use `organization` for the business or team managing properties.
+- Use `property space` for an area shared by guests across accommodations.
+- Use `accommodation space` for a space belonging to one unit.
+- Explain concepts through a realistic setup before presenting reference definitions.
 
 ## Style preferences
 
@@ -29,5 +30,7 @@
 
 ## Content boundaries
 
-{/* Define what should and shouldn't be documented */}
-{/* Example: Don't document internal admin features */}
+- Document workflows available to accommodation owners and their team members.
+- Do not document internal platform-administration features.
+- Keep advanced inventory and composition concepts out of beginner guides unless the use case requires them.
+- Organize setup guidance around how guests can book, not around the application's database model.
